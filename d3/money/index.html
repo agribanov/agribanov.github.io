@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Money</title>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+</head>
+<body>
+	<main>
+		<div class="chart"></div>
+		<div class="row">
+		Период с 
+			<select class="monthSelector" data-field="startMonth">
+				<option value="0">Январь</option>
+				<option value="1">Февраль</option>
+				<option value="2">Март</option>
+				<option value="3">Апрель</option>
+				<option value="4">Май</option>
+				<option value="5">Июнь</option>
+				<option value="6">Июль</option>
+				<option value="7">Август</option>
+				<option value="8">Сентябрь</option>
+				<option value="9">Октябрь</option>
+				<option value="10">Ноябрь</option>
+				<option value="11">Декабрь</option>
+			</select>
+			по
+			<select class="monthSelector" data-field="endMonth">
+				<option value="0">Январь</option>
+				<option value="1">Февраль</option>
+				<option value="2">Март</option>
+				<option value="3">Апрель</option>
+				<option value="4">Май</option>
+				<option value="5">Июнь</option>
+				<option value="6">Июль</option>
+				<option value="7">Август</option>
+				<option value="8">Сентябрь</option>
+				<option value="9">Октябрь</option>
+				<option value="10">Ноябрь</option>
+				<option value="11" selected="selected">Декабрь</option>
+			</select>
+		</div> 
+	</main>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
