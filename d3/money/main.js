@@ -44,7 +44,7 @@ var incDay = function(day, month){
 
 var getDayCourse = function(day, month){
 	var m = parsedData[month];
-	if (!m) { return false; }
+	if (!m) { return 8.2050; } // value for last day of december
 
 	var course = m[day];
 	if (!course){
