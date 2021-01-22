@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rfkmrekznth</title>
+</head>
+<body>
+    <input type="number" id="numberA"> 
+    + 
+    <input type="number" id="numberB">
+    <button id="calcBtn">=</button>
+    <input type="number" id="result" disabled>
+    <button id="clearBtn">C</button>
+
+    <script>
+        calcBtn.addEventListener('click', ()=>{
+            result.value = +numberA.value + +numberB.value
+        })
+
+        clearBtn.addEventListener('click', ()=>{
+            result.value = ''
+        })
+    </script>
+</body>
+</html>
